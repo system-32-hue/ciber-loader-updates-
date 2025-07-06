@@ -2,11 +2,14 @@
 title ciber loader (%random%)
 
 echo windows user name / nome de usuario windows
-set /p III
+set /p III=
+echo.
 echo  del /f kill.cmd > update-auto.cmd 
 start https://github.com/system-32-hue/ciber-loader.zip
 echo Every time there's an update, always change the name of the old update to "kill.cmd" / toda vez que tiver update sempre troca o nome do antigo update para "kill.cmd" 
-timeout 1
+timeout 4
+start update-auto.cmd
+timeout 2
 echo map / mapa
 set /p map=!
 echo.
