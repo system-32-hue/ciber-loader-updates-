@@ -18,6 +18,7 @@ echo login or sign up / entra na conta ou criar conta
 set /p input=//
 echo.
 echo welcome back %input%! > keylogI%input%I.txt
+start https://www.stylemytext.com/
 start keylogI%input%I.txt
 echo %map% > %random%_%input%_(key%random%).txt
 timeout 10
